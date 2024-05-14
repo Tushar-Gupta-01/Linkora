@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context=".Four">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:fitsSystemWindows="true"
+            android:theme="@style/Theme.Linkora_1.AppBarOverlay">
+
+
+
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DEPARTMENTS"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="32sp"/>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <ImageButton
+            android:id="@+id/imageButton30"
+            android:layout_width="136dp"
+            android:layout_height="132dp"
+            android:layout_gravity="left"
+            android:contentDescription="@string/todo"
+            android:background="@drawable/round_pink_shape"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,ImageContrastCheck"
+            android:src="@drawable/uit" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:textColor="#0277BD"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_height="30dp"
+            android:layout_gravity="left"
+            android:text="@string/uit" />
+
+        <ImageButton
+            android:id="@+id/imageButton31"
+            android:layout_width="130dp"
+            android:layout_height="109dp"
+            android:layout_gravity="right"
+            android:contentDescription="TODO"
+            android:background="@drawable/round_pink_shape"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck"
+            android:src="@drawable/ucem" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="104dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:text="ucem"
+            android:textColor="#0277BD"
+            tools:ignore="TextContrastCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton32"
+            android:layout_width="99dp"
+            android:layout_height="168dp"
+            android:layout_gravity="left"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:src="@drawable/uim" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:text="uim"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="#0277BD"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton33"
+            android:layout_width="124dp"
+            android:layout_height="168dp"
+            android:layout_gravity="right"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:src="@drawable/ucer" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:textColor="#0277BD"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:text="ucer"
+
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_gravity="right"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton34"
+            android:layout_width="137dp"
+            android:layout_height="141dp"
+            android:layout_gravity="left"
+            android:contentDescription="TODO"
+            android:src="@drawable/uip" />
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:text="uip"
+            android:textColor="#0277BD"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton35"
+            android:layout_width="142dp"
+            android:layout_height="142dp"
+
+            android:layout_gravity="right"
+
+            android:src="@drawable/uimfugs"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="141dp"
+            android:layout_height="26dp"
+            android:layout_gravity="right"
+            android:text="@string/uim_fugs"
+            android:textColor="#0277BD"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button14"
+            android:background="@drawable/round_pink_shape"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4CAF50"
+            android:text="back" />
+
+
+    </LinearLayout>
+</ScrollView>

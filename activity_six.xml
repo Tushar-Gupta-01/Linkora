@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:background="@drawable/b"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="110dp"
+        android:layout_height="105dp"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_alignEnd="@+id/textView13"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-33dp"
+        android:layout_marginTop="147dp"
+        android:layout_marginEnd="-36dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/login"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="110dp"
+        android:layout_height="105dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="279dp"
+        app:srcCompat="@drawable/signup"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="287dp"
+        android:text="LOGIN"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+
+        android:layout_height="37dp"
+        android:layout_alignEnd="@+id/imageButton12"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="499dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="221dp"
+        android:text="SIGNUP "
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</RelativeLayout>
